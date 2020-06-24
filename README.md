@@ -1,6 +1,6 @@
 # Asincronismo en Javascript
 
-> Dentro de JavaScript han habido varias formas de hacer asincronismo, a lo largo de la historia del lenguaje se han ido añadiendo nuevas cara´cterísticas que han resuelto proplemas de legibilidad y sobre todo flexibilidad a la hora de implementarlo y es aquí donde vemos dintintos ejemplos de como implementarlo en sus distintas formas.
+> Dentro de JavaScript han habido varias formas de hacer asincronismo, a lo largo de la historia del lenguaje se han ido añadiendo nuevas características que han resuelto problemas de legibilidad y sobre todo de flexibilidad a la hora de implementarlo y es aquí donde vemos dintintos ejemplos de como implementarlo en sus distintas formas.
 
 ## Instalación
 
@@ -25,13 +25,13 @@ $ npm run callback:challenge
 $ npm run promise
 $ npm run promise:challenge
 $ npm run async
-$npm run async:challenge
+$ npm run async:challenge
 ```
 
 ## Callbacks
 
 ### [Definición](https://developer.mozilla.org/en-US/docs/Glossary/Callback_function)
-Una función de devolución de llamada es una función que se pasa a otra función como argumento, que luego se invoca dentro de la función externa para completar algún tipo de rutina o acción.
+Una función de devolución de llamada(callback) es una función que se pasa a otra función como argumento, que luego se invoca dentro de la función externa para completar algún tipo de rutina o acción.
 
 ### Ejemplos
 ```javascript
@@ -167,7 +167,7 @@ fetchData(API)
 ## Async/Await
 
 ### [Definición](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function)
-Una función asincrónica es una función declarada con la palabra clave asincrónica. Las funciones asíncronas son instancias del constructor AsyncFunction, y la palabra clave de espera está permitida dentro de ellas. Las palabras clave asíncrona y en espera permiten que el comportamiento asíncrono basado en promesas se escriba en un estilo más limpio, evitando la necesidad de configurar explícitamente las cadenas de promesas.
+Una función asincrónica es una función declarada con la palabra clave __async__. Las funciones asíncronas son instancias del constructor AsyncFunction, y la palabra clave  __await__  está permitida dentro de ellas. Las palabras clave __async__ y __await__ permiten que el comportamiento asíncrono basado en promesas se escriba en un estilo más limpio, evitando la necesidad de configurar explícitamente las cadenas de promesas.
 
 ### Ejemplos
 ```javascript
