@@ -12,7 +12,7 @@
     "async:challenge": "node src/async/challenge.js"
   },
   "keywords": [],
-  "author": "Ismael López <lc.ismael@hotmail.com>",
+  "author": "Ismael López <ismaellopez.dev@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "xmlhttprequest": "^1.8.0"
